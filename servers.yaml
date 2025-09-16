@@ -1,0 +1,10 @@
+# servers.yaml
+servers:
+  math:
+    command: python
+    script: servers/math_server.py
+    description: Mathematical operations
+  weather:
+    command: python 
+    script: servers/weather_server.py
+    description: Weather information

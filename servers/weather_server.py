@@ -10,4 +10,4 @@ async def get_weather(location: str) -> str:
     return "Hot as hell"
 
 if __name__ == "__main__":
-    mcp.run(transport="sse")
+    mcp.run(transport="stdio")
